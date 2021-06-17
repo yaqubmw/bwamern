@@ -13,31 +13,31 @@ export default function Header(props) {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
-        </nav>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className={`nav-item${getNavLinkClass("/")}`}>
-              <button className="nav-link" type="link" href="/">
+              <Button className="nav-link" type="link" href="/">
                 Home
-              </button>
+              </Button>
             </li>
             <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
-              <button className="nav-link" type="link" href="/browse-by">
+              <Button className="nav-link" type="link" href="/browse-by">
                 Browse by
-              </button>
+              </Button>
             </li>
             <li className={`nav-item${getNavLinkClass("/stories")}`}>
-              <button className="nav-link" type="link" href="/stories">
+              <Button className="nav-link" type="link" href="/stories">
                 Stories
-              </button>
+              </Button>
             </li>
             <li className={`nav-item${getNavLinkClass("/agents")}`}>
-              <button className="nav-link" type="link" href="/agents">
+              <Button className="nav-link" type="link" href="/agents">
                 Agents
-              </button>
+              </Button>
             </li>
           </ul>
         </div>
+        </nav>
       </div>
     </header>
   );
