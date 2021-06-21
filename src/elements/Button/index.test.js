@@ -18,7 +18,7 @@ test("Should render loading/spinner", () => {
 });
 
 test("Should render <a> tag", () => {
-  const { container } = render(<Button type="link" isExternal></Button>);
+  const { container } = render(<Button type="link" isPrimary></Button>);
 
   expect(container.querySelector("a")).toBeInTheDocument();
 });
