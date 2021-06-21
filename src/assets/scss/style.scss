@@ -65,12 +65,11 @@ header {
 
         ul.navbar-nav {
             li.nav-item {
-                &.active {
+                &:active {
                     a.nav-link {
                         color: $primary;
                     }
                 }
-
                 a {
                     &.nav-link {
                         letter-spacing: 1px;
