@@ -75,13 +75,11 @@ header {
 
                 a {
                     &.nav-link {
-                        letter-spacing: 1px;
-                        color: $gray-900;
-                        padding-left: 1rem;
-                        padding-right: 1rem;
+                        padding-left: 0.5rem;
+                        padding-right: 0.5rem;
 
                         &:hover {
-                            text-decoration: underline;
+                            text-decoration: none;
                         }
                     }
                 }
